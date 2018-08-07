@@ -17,16 +17,12 @@
 {{!
     Page footer.
 }}
-<footer id="page-footer" class="py-3 bg-dark text-light">
+<footer id="page-footer" class="py-3 text-light">
     <div class="container">
         <div id="course-footer">{{{ output.course_footer }}}</div>
 
-        <nav class="nav navbar-nav d-md-none">
-            <div class="col-md-3 info-endereco">
-                <p><strong>Endereço</strong></p>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit</p>
-                <p><strong>Fone: 55 (84) 9999 9999<br>contato@contato.com.br</strong></p>
-            </div>
+        <nav class="info-liga">
+            {{{output.custom_footer_liga}}}
         </nav>
 
         {{{ output.standard_footer_html }}}

@@ -699,4 +699,21 @@ class core_renderer extends \core_renderer {
     public function secure_login_info() {
         return $this->login_info(false);
     }
+
+
+    /**
+     * 
+     */
+    public function custom_footer_liga(){
+
+        $output = '<div class="col-12">';
+        $output .= '<p><strong>Endereço</strong></p>';
+        $output .= '<p>Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit</p>';
+        $output .= '<p><strong>Fone: 55 (84) 9999 9999<br>contato@contato.com.br</strong></p>';
+        $output .= '</div>';
+
+        return $output;
+
+    }
+
 }

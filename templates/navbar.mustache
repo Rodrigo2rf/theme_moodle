@@ -17,7 +17,12 @@
 {{!
     Page navbar.
 }}
-<nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex">
+
+<div class="col-12 fixed-top" style="height:20px; background: #c3281e; color: #fff;">
+    <p style="font-size:12px; text-align:right"> Fone 55 (84) 9999 9999 | contato@contato.com.br</p>
+</div>
+
+<nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" style="margin-top:20px;">
 
         <div data-region="drawer-toggle" class="d-inline-block mr-3">
             <button aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">{{#pix}}i/menubars{{/pix}}<span class="sr-only">{{#str}}sidepanel, core{{/str}}</span></button>
@@ -33,7 +38,7 @@
                     <img src="{{output.get_compact_logo_url}}" alt="{{sitename}}">
                 </span>
             {{/ output.should_display_navbar_logo }}
-            <span class="site-name d-none d-md-inline">{{{ sitename }}}</span>
+            <!-- <span class="site-name d-none d-md-inline">{{{ sitename }}}</span> -->
         </a>
 
         <ul class="navbar-nav d-none d-md-flex">
@@ -56,5 +61,6 @@
             </li>
         </ul>
         <!-- search_box -->
+
 </nav>
 

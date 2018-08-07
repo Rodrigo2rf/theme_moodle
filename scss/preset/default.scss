@@ -97,3 +97,34 @@ body {
 .userpicture {
     border-radius: 50%;
 }
+
+/* Sobrescrevendo */
+#page-wrapper #page{
+    margin-top:70px;
+}
+
+#nav-drawer{
+    margin-top:20px; 
+    background-color:rgba(0,255,0,0.1);
+} 
+
+.list-group-item.active,
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #00874b !important;
+  border-color: #00874b !important;
+  color: #fff;
+}
+
+#page-footer{
+    background: #00874b;
+}
+
+.info-liga {
+  border-left: 1px solid white;
+  font-size: .8rem;
+}
+
+.card-header.login-liga{
+    background-color: #fff;
+    border-bottom: none;
+}
