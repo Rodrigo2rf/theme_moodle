@@ -709,7 +709,7 @@ class core_renderer extends \core_renderer {
         $output = '<div class="col-12">';
         $output .= '<p><strong>Endereço</strong></p>';
         $output .= '<p>Av. Miguel Castro, 1355, Dix-Sept Rosado, Natal/RN, CEP: 59062-000</p>';
-        $output .= '<p><strong>Fone: 55 (84) 4009 5501<br>sec.depecom@liga.org.br</strong></p>';
+        $output .= '<p><strong>Fone: 55 (84) 4009 5567<br>escoladeoncologia@liga.org.br</strong></p>';
         $output .= '</div>';
 
         return $output;
