@@ -706,8 +706,10 @@ class core_renderer extends \core_renderer {
      */
     public function custom_footer_liga(){
 
+        global $CFG;
+
         $output = '<div class="col-12">';
-        $output .= '<p><strong>Endereço</strong></p>';
+        $output .= '<p><img src="'.$CFG->wwwroot.'/theme/liga/pix/logo_liga_footer.png" alt="Liga Contra o Câncer" width="120"></p>';
         $output .= '<p>Av. Miguel Castro, 1355, Dix-Sept Rosado, Natal/RN, CEP: 59062-000</p>';
         $output .= '<p><strong>Fone: 55 (84) 4009 5567<br>escoladeoncologia@liga.org.br</strong></p>';
         $output .= '</div>';
